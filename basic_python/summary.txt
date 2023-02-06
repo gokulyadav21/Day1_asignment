@@ -1,0 +1,12 @@
+git config --global user.name "gokulyadav21"
+git config --global user.email "gunduboyenagokulyadav@gmail.com"
+git config --global user.password "#Gokul2001"
+git config --global http.sslverify "false"
+git clone https://github.com/gokulyadav21/day-1python.git
+pwd
+cd day-1python/
+git checkout -b "day1_test"
+git status
+git add test.txt
+git commit -m "first commit"
+git push origin day1_test
